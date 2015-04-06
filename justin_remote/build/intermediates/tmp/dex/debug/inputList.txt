@@ -1,0 +1,5 @@
+/home/nickfarrow/Documents/Justin_remote/justin_remote/build/intermediates/classes/debug
+/home/nickfarrow/Documents/Justin_remote/justin_remote/build/intermediates/pre-dexed/debug/support-annotations-21.0.3-7c7cff31f07e3511ee69eb1244baa16783126c08.jar
+/home/nickfarrow/Documents/Justin_remote/justin_remote/build/intermediates/pre-dexed/debug/desktopRemoteServer-4595b7be45e16cb7a1d56f536bed93768bf41cc0.jar
+/home/nickfarrow/Documents/Justin_remote/justin_remote/build/intermediates/pre-dexed/debug/internal_impl-21.0.3-753efa81f1c149f7d39b0e08b247bfa71ef19fb2.jar
+/home/nickfarrow/Documents/Justin_remote/justin_remote/build/intermediates/pre-dexed/debug/classes-2981450457aeb8835ea09831dec2cf8a085f1c68.jar

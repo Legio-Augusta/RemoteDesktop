@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<issues format="4" by="lint 24.1.2">
+
+    <issue
+        id="DuplicateIds"
+        severity="Fatal"
+        message="Duplicate id `@+id/linearLayout1`, already defined earlier in this layout"
+        category="Correctness"
+        priority="7"
+        summary="Duplicate ids within a single layout"
+        explanation="Within a layout, id&apos;s should be unique since otherwise `findViewById()` can return an unexpected view."
+        errorLine1="                android:id=&quot;@+id/linearLayout1&quot;"
+        errorLine2="                ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="/home/nickfarrow/Documents/Justin_remote/justin_remote/src/main/res/layout/main.xml"
+            line="23"
+            column="17"/>
+        <location
+            file="/home/nickfarrow/Documents/Justin_remote/justin_remote/src/main/res/layout/main.xml"
+            line="13"
+            column="13"/>
+    </issue>
+
+    <issue
+        id="DuplicateIds"
+        severity="Fatal"
+        message="Duplicate id `@+id/TextView02`, already defined earlier in this layout"
+        category="Correctness"
+        priority="7"
+        summary="Duplicate ids within a single layout"
+        explanation="Within a layout, id&apos;s should be unique since otherwise `findViewById()` can return an unexpected view."
+        errorLine1="                    &lt;TextView android:text=&quot;Device PORT:&quot; android:id=&quot;@+id/TextView02&quot; android:layout_width=&quot;wrap_content&quot; android:layout_height=&quot;wrap_content&quot; android:textStyle=&quot;bold&quot; android:textSize=&quot;20dp&quot; />"
+        errorLine2="                                                          ~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="/home/nickfarrow/Documents/Justin_remote/justin_remote/src/main/res/layout/main.xml"
+            line="95"
+            column="59"/>
+        <location
+            file="/home/nickfarrow/Documents/Justin_remote/justin_remote/src/main/res/layout/main.xml"
+            line="61"
+            column="21"/>
+    </issue>
+
+    <issue
+        id="DuplicateIds"
+        severity="Fatal"
+        message="Duplicate id `@+id/TextView02`, already defined earlier in this layout"
+        category="Correctness"
+        priority="7"
+        summary="Duplicate ids within a single layout"
+        explanation="Within a layout, id&apos;s should be unique since otherwise `findViewById()` can return an unexpected view."
+        errorLine1="                    &lt;TextView android:text=&quot;Frame Rate:&quot; android:id=&quot;@+id/TextView02&quot; android:layout_width=&quot;wrap_content&quot; android:layout_height=&quot;wrap_content&quot; android:textStyle=&quot;bold&quot; android:textSize=&quot;20dp&quot; />"
+        errorLine2="                                                         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="/home/nickfarrow/Documents/Justin_remote/justin_remote/src/main/res/layout/main.xml"
+            line="107"
+            column="58"/>
+        <location
+            file="/home/nickfarrow/Documents/Justin_remote/justin_remote/src/main/res/layout/main.xml"
+            line="61"
+            column="21"/>
+    </issue>
+
+    <issue
+        id="DuplicateIds"
+        severity="Fatal"
+        message="Duplicate id `@+id/TextView03`, already defined earlier in this layout"
+        category="Correctness"
+        priority="7"
+        summary="Duplicate ids within a single layout"
+        explanation="Within a layout, id&apos;s should be unique since otherwise `findViewById()` can return an unexpected view."
+        errorLine1="                    &lt;TextView android:text=&quot;Screen Ratio:&quot; android:id=&quot;@+id/TextView03&quot; android:layout_width=&quot;wrap_content&quot; android:layout_height=&quot;wrap_content&quot; android:textStyle=&quot;bold&quot; android:textSize=&quot;20dp&quot; />"
+        errorLine2="                                                           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="/home/nickfarrow/Documents/Justin_remote/justin_remote/src/main/res/layout/main.xml"
+            line="119"
+            column="60"/>
+        <location
+            file="/home/nickfarrow/Documents/Justin_remote/justin_remote/src/main/res/layout/main.xml"
+            line="30"
+            column="21"/>
+    </issue>
+
+</issues>
